@@ -7,7 +7,7 @@ const Heading = () => {
       <div class="overlay overlay-bg"></div>
       <div className="container">
         <div className="content">
-          <h1>We’re Industrial test solution</h1>
+          <h1>We’re Industrial solution</h1>
           <p className="text-white">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
             eiusmod tempor incididunt ut labore et <br></br>dolore magna aliqua.
