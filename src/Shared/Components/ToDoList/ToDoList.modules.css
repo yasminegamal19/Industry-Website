@@ -1,0 +1,9 @@
+.todos{
+    background-color: aliceblue;
+}
+.todos .item .check .completed{
+   color: green;
+}
+.todos .item .check .uncompleted{
+    color: red;
+}

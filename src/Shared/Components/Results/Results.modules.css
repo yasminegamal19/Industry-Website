@@ -1,0 +1,43 @@
+.results{
+    background: url(../Results/assets/logo.png.webp);
+    background-size: cover;
+    position: relative; 
+    padding: 120px 0 !important;
+}
+.results .content{
+    position: relative;
+}
+.results  .overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.overlay-bg{
+    background-color: #000;
+    opacity: 0.5;
+}
+.item-content .circle {
+    border: 1px solid #fab700 !important;
+    border-radius: 50%;
+    display: inline-block;
+}
+.circle .inner {
+    background-color: #fab700;
+    border-radius: 50%;
+    margin: 24px;
+    height: 105px;
+    width: 105px;
+}
+
+.item-content h5{
+    color: #eee;
+    margin-top: -103px;
+    font-size: 25px;
+}
+.item-content p{
+    color: #eee;
+    font-size: 19px;
+    padding-top: 76px;
+}

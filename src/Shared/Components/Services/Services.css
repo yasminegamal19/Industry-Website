@@ -1,0 +1,32 @@
+.service .content{
+    padding: 100px 0;
+}
+.service h1{
+    font-size: 40px;
+    font-weight:700;
+    padding-bottom: 10px;
+}
+.service p{
+    padding-bottom: 10px;
+}
+.service-item{
+    padding: 0 20px;
+    overflow: hidden;
+}
+.service-item h3{
+    padding: 15px 0;
+    font-size: 25px;
+}
+.service-item .item-data .img-box{
+    overflow: hidden;
+}
+.service-item .item-data img{
+      width: 100%;
+      transition: transform 0.5s ease;
+}
+.service-item:hover .item-data img{
+      transform: scale(1.2) rotate(2deg);
+}
+.service-item:hover .item-data h3{
+   color: #fab700;
+}

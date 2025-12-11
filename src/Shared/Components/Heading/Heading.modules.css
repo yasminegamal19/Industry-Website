@@ -1,0 +1,38 @@
+.heading{
+    height: 500px;
+    background: url('./assets/imgs/header-bg.jpg.webp') center;
+    background-size: cover;
+    position: relative;
+}
+.heading .content{
+    margin-top: 50px;
+    text-align: center;
+    position: relative;
+}
+.heading h1{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1em;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.heading .btn{
+    margin-top: 10px;
+    background-color: #fab700;
+    padding: 10px 30px;
+    border: 1px solid transparent;
+    color: #fff;
+    border-radius: 0;
+}
+.heading  .overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.overlay-bg{
+    background-color: #000;
+    opacity: 0.5;
+}
